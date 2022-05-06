@@ -8,13 +8,14 @@
 
 ## CSS Guide
 
+## Folder Structure
 
 ### Help
 
-
-
-```sh
-npx create-react-app my-app
-cd my-app
-npm start
+```js
+const [activeItem, setActiveItem] = useState(0); 
+const [eventProperties, setEventProperties] = useState<ISafetyMetricsDataPoint[]>([]);
+const [maxValue, setMaxValue] = useState<number>(0);
+const {selectedSafetyMetric, setSelectedEventItems} = props;
 ```
+
