@@ -20,6 +20,7 @@ File Extensions
 ```js
 ShoppingCart.tsx // [tsx] for components
 ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+GetShoppingCartData.js // [js] for files that don't require typescript
 ```
 
 Quotations
@@ -31,6 +32,12 @@ import "./ExampleComponent.scss";
 <-- NOT OK -->
 import './ExampleComponent.scss';
 ```
+
+Arrow Functions
+
+Variable Definition
+
+
 
 ## CSS Guide
 
