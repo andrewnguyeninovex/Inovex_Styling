@@ -8,18 +8,15 @@
 
 Indentation
 ```
-<!-- Not recommended -->
+<-- 4 Spaces -->
 value: {
-actual: 0,
-maxValue: 0,
-minValue: 0,
-low: 0,
-showActual: true,
-            value: 0
-            }
-```
-
-```
+    actual: 0,
+    maxValue: 0,
+    minValue: 0,
+    low: 0,
+    showActual: true,
+    value: 0
+    }
 ```
 
 ## CSS Guide
