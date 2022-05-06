@@ -7,7 +7,7 @@
 ## Eslint
 
 Indentation
-```
+```js
 <-- 4 Spaces -->
 value: {
 --> actual: 0,
@@ -20,7 +20,7 @@ value: {
 ```
 
 File Extensions
-```
+```js
 ShoppingCart.tsx // [tsx] for components
 ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
 ```
