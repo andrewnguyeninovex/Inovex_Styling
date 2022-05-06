@@ -27,7 +27,7 @@ Quotations
 <-- OK -->
 import "./ExampleComponent.scss";
 ```
-```js
+```
 <-- NOT OK -->
 import './ExampleComponent.scss';
 ```
