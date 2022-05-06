@@ -1,3 +1,7 @@
+<p align='center'>
+<img src='Inovex-logo.jpg' width='300' alt='inovex logo'>
+</p>
+
 # Inovex Best Practice
 
 ## Eslint
@@ -6,9 +10,7 @@
 
 
 ### Help
-<p align='center'>
-<img src='Inovex-logo.jpg' width='300' alt='inovex logo'>
-</p>
+
 
 
 ```sh
