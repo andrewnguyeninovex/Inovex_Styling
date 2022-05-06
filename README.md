@@ -7,7 +7,7 @@
 
 ### Help
 <p align='center'>
-<img src='Inovex-logo.jpg' width='600' alt='inovex logo'>
+<img src='Inovex-logo.jpg' width='300' alt='inovex logo'>
 </p>
 
 
