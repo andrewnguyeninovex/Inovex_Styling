@@ -1,5 +1,5 @@
 ![This is an image](Inovex-logo.jpg)
-# Inovex Best Practice
+# Inovex Best Practice :blush:
 
 ## Eslint
 
@@ -64,3 +64,5 @@ my-app
     └── setupTests.js
  ```
 ### Help
+
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
