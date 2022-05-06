@@ -24,13 +24,14 @@ ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
 
 Quotations
 ```js
-ShoppingCart.tsx // [tsx] for components
-ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+<-- OK -->
+import "./ExampleComponent.scss";
 ```
 ```js
-ShoppingCart.tsx // [tsx] for components
-ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+<-- NOT OK -->
+import './ExampleComponent.scss';
 ```
+
 ## CSS Guide
 
 ## Folder Structure
