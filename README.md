@@ -2,6 +2,7 @@
 <img src='Inovex-logo.jpg' width='200' alt='inovex logo'>
 </p>
 
+![This is an image](Inovex-logo.jpg)
 # Inovex Best Practice
 
 ## Eslint
@@ -25,6 +26,15 @@ ShoppingCart.tsx // [tsx] for components
 ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
 ```
 
+Quotations
+```js
+ShoppingCart.tsx // [tsx] for components
+ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+```
+```js
+ShoppingCart.tsx // [tsx] for components
+ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+```
 ## CSS Guide
 
 ## Folder Structure
