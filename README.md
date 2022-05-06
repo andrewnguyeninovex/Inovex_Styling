@@ -66,5 +66,7 @@ my-app
 ### Help
 
 https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
 https://google.github.io/styleguide/htmlcssguide.html
+
 https://github.com/airbnb/javascript
