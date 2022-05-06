@@ -1,4 +1,4 @@
-<p align='center'>
+<p>
 <img src='Inovex-logo.jpg' height='200' alt='inovex logo'>
 </p>
 
