@@ -6,6 +6,22 @@
 
 ## Eslint
 
+Indentation
+```
+<!-- Not recommended -->
+value: {
+actual: 0,
+maxValue: 0,
+minValue: 0,
+low: 0,
+showActual: true,
+            value: 0
+            }
+```
+
+```
+```
+
 ## CSS Guide
 
 ## Folder Structure
