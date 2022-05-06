@@ -1,7 +1,3 @@
-<p>
-<img src='Inovex-logo.jpg' width='200' alt='inovex logo'>
-</p>
-
 ![This is an image](Inovex-logo.jpg)
 # Inovex Best Practice
 
