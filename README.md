@@ -64,11 +64,3 @@ my-app
     └── setupTests.js
  ```
 ### Help
-
-```js
-const [activeItem, setActiveItem] = useState(0); 
-const [eventProperties, setEventProperties] = useState<ISafetyMetricsDataPoint[]>([]);
-const [maxValue, setMaxValue] = useState<number>(0);
-const {selectedSafetyMetric, setSelectedEventItems} = props;
-```
-
