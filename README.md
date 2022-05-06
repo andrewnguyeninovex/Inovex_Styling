@@ -19,6 +19,12 @@ value: {
     }
 ```
 
+File Extensions
+```
+ShoppingCart.tsx // [tsx] for components
+ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
+```
+
 ## CSS Guide
 
 ## Folder Structure
