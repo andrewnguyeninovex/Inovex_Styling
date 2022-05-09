@@ -45,6 +45,7 @@ Variable Definition
 Always create components with **reusability in mind**.
 Will the component contain states? Will it handle prop manipulation or just take in data?
 Determine if it's going to be a static component that has nothing but the bare minimum. Pizza dough without the topping.
+
 Treat components like lego blocks :bricks:
 
 ## Folder Structure
