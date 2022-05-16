@@ -80,7 +80,7 @@ let b = 2;
 console.assert(a === b, {a, b, errorMsg: "They do not match"});
 ```
 ![image](https://user-images.githubusercontent.com/102827542/168632848-9b7d494d-d331-4017-b5a6-785f3d7a2f83.png)
-You can see that the functions and calls are listed to help you step back on which functions were used before the assert was triggered.
+> You can see that the functions and calls are listed to help you step back on which functions were used before the assert was triggered.
 
 ```
 <-- Display Red and Yellow blocks on console for visibility. -->
@@ -94,7 +94,7 @@ console.warn("Yellow warning");
 debugger;
 ```
 ![image](https://user-images.githubusercontent.com/102827542/168633984-88dfa52c-28d0-46bf-83c9-876451cbc350.png)
-You can view all the stored data in scope and additional details from call stacks, file issue, line of code, and more.
+> You can view all the stored data in scope and additional details from call stacks, file issue, line of code, and more.
 
 ## Folder Structure
 
