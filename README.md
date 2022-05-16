@@ -5,7 +5,7 @@
 
 Indentation
 ```js
-<!-- 4 Spaces -->
+<-- 4 Spaces -->
 value: {
 --> actual: 0,
     maxValue: 0,
