@@ -52,20 +52,49 @@ Treat components like lego blocks :bricks:
 
 ```
 <-- The sweet sweet console.log -->
-console.log("Hello World")
-console.log("%cHello World", "color: red")
+console.log("Hello World");
+console.log("%cHello World", "color: red"); // You can add styling to your logs with %c - optional parameter applies CSS
 ```
-Output: ![image](https://user-images.githubusercontent.com/102827542/168629196-e6c77727-2c5f-4b59-b77a-b948bbd2c8c5.png)
+![image](https://user-images.githubusercontent.com/102827542/168629196-e6c77727-2c5f-4b59-b77a-b948bbd2c8c5.png)
 
 
 ```
 <-- console.dir is great to show the print in object form -->
 let objectA = {name: "Inovex", location: "Oakville"};
-console.dir(objectA)
-console.log(objectA)
+console.dir(objectA);
+console.log(objectA);
 ```
-Output: ![image](https://user-images.githubusercontent.com/102827542/168629597-f1b391e4-cdd6-4482-9423-9792c46f7f29.png)
+![image](https://user-images.githubusercontent.com/102827542/168629597-f1b391e4-cdd6-4482-9423-9792c46f7f29.png)
 
+```
+<-- console.table illustrates the array in table format -->
+let arrayList = [1, 3, 5, 7, 9];
+console.table(arrayList);
+```
+![image](https://user-images.githubusercontent.com/102827542/168632320-5ec062b1-baaa-459c-9b64-d203cac11ac0.png)
+
+```
+<-- console.assert will trigger a message if the condition is not satisfied -->
+let a = 1;
+let b = 2;
+console.assert(a === b, {a, b, errorMsg: "They do not match"});
+```
+![image](https://user-images.githubusercontent.com/102827542/168632848-9b7d494d-d331-4017-b5a6-785f3d7a2f83.png)
+You can see that the functions and calls are listed to help you step back on which functions were used before the assert was triggered.
+
+```
+<-- Display Red and Yellow blocks on console for visibility. -->
+console.error("Red warning"); // You can throw in try/catch as well conditional codes (similar to assert)
+console.warn("Yellow warning");
+```
+![image](https://user-images.githubusercontent.com/102827542/168633201-b069882d-9a9e-4693-a0b9-bee099506971.png)
+
+```
+<-- Will open up debugger tool on browser; similar to placing breakpoints to step in/over code -->
+debugger;
+```
+![image](https://user-images.githubusercontent.com/102827542/168633984-88dfa52c-28d0-46bf-83c9-876451cbc350.png)
+You can view all the stored data in scope and additional details from call stacks, file issue, line of code, and more.
 
 ## Folder Structure
 
