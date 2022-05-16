@@ -1,6 +1,8 @@
 ![This is an image](Inovex-logo.jpg)
 # Inovex Best Practice :blush:
 
+
+<br/>
 ## Eslint
 
 Indentation
@@ -41,6 +43,8 @@ Variable Definition
 
 ## CSS Guide
 
+
+<br/>
 ## Component Decision Making
 Always create components with **reusability in mind**.
 Will the component contain states? Will it handle prop manipulation or just take in data?
@@ -48,6 +52,8 @@ Determine if it's going to be a static component that has nothing but the bare m
 
 Treat components like lego blocks :bricks:
 
+
+<br/>
 ## Debugging Tips
 
 ### console.log
@@ -96,6 +102,15 @@ console.warn("Yellow warning");
 ```
 ![image](https://user-images.githubusercontent.com/102827542/168633201-b069882d-9a9e-4693-a0b9-bee099506971.png)
 
+### console.time, console.timeEnd
+```
+console.time() // Time in
+console.timeEnd() // Time out
+```
+![image](https://user-images.githubusercontent.com/102827542/168637565-877deda4-315b-452e-ac8d-bf6b5e4af443.png)
+<br/>
+`Place the time and timeEnd before and after line of codes you'd like to diagnose. This will help check how long code runs`
+
 ### debugger
 ```js
 <-- Will open up debugger tool on browser; similar to placing breakpoints to step in/over code -->
@@ -105,6 +120,8 @@ debugger;
 <br/>
 `You can view all the stored data in scope and additional details from call stacks, file issue, line of code, and more.`
 
+
+<br/>
 ## Folder Structure
 
 ```
@@ -127,6 +144,9 @@ my-app
     └── serviceWorker.js
     └── setupTests.js
  ```
+ 
+ 
+ <br/>
 ### Help
 
 https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
