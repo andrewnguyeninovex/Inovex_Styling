@@ -2,7 +2,7 @@
 # Inovex Best Practice :blush:
 
 
-<br/>
+
 ## Eslint
 
 Indentation
