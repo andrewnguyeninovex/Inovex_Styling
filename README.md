@@ -2,7 +2,6 @@
 # Inovex Best Practice :blush:
 
 
-
 ## Eslint
 
 Indentation
@@ -44,7 +43,6 @@ Variable Definition
 ## CSS Guide
 
 
-<br/>
 ## Component Decision Making
 Always create components with **reusability in mind**.
 Will the component contain states? Will it handle prop manipulation or just take in data?
@@ -53,7 +51,6 @@ Determine if it's going to be a static component that has nothing but the bare m
 Treat components like lego blocks :bricks:
 
 
-<br/>
 ## Debugging Tips
 
 ### console.log
@@ -121,7 +118,6 @@ debugger;
 `You can view all the stored data in scope and additional details from call stacks, file issue, line of code, and more.`
 
 
-<br/>
 ## Folder Structure
 
 ```
@@ -146,7 +142,6 @@ my-app
  ```
  
  
- <br/>
 ### Help
 
 https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
