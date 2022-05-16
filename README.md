@@ -4,7 +4,7 @@
 
 ## Eslint
 
-Indentation
+### Indentation
 ```js
 <-- 4 Spaces -->
 value: {
@@ -17,14 +17,14 @@ value: {
     }
 ```
 
-File Extensions
+### File Extensions
 ```js
 ShoppingCart.tsx // [tsx] for components
 ShoppingCartProps.ts // [ts] for interface, utility, stateless functions
 GetShoppingCartData.js // [js] for files that don't require typescript
 ```
 
-Quotations
+### Quotations
 ```js
 <-- OK -->
 import "./ExampleComponent.scss";
@@ -34,9 +34,9 @@ import "./ExampleComponent.scss";
 import './ExampleComponent.scss';
 ```
 
-Arrow Functions
+### Arrow Functions
 
-Variable Definition
+### Variable Definition
 
 
 
