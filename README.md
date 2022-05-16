@@ -48,6 +48,25 @@ Determine if it's going to be a static component that has nothing but the bare m
 
 Treat components like lego blocks :bricks:
 
+## Debugging Tips
+
+```
+<-- The sweet sweet console.log -->
+console.log("Hello World")
+console.log("%cHello World", "color: red")
+```
+Output: ![image](https://user-images.githubusercontent.com/102827542/168629196-e6c77727-2c5f-4b59-b77a-b948bbd2c8c5.png)
+
+
+```
+<-- console.dir is great to show the print in object form -->
+let objectA = {name: "Inovex", location: "Oakville"};
+console.dir(objectA)
+console.log(objectA)
+```
+Output: ![image](https://user-images.githubusercontent.com/102827542/168629597-f1b391e4-cdd6-4482-9423-9792c46f7f29.png)
+
+
 ## Folder Structure
 
 ```
