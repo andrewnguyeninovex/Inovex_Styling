@@ -65,7 +65,9 @@ let objectA = {name: "Inovex", location: "Oakville"};
 console.dir(objectA);
 console.log(objectA);
 ```
-![image](https://user-images.githubusercontent.com/102827542/168629597-f1b391e4-cdd6-4482-9423-9792c46f7f29.png)
+![image](https://user-images.githubusercontent.com/102827542/168636345-2d7ccd8a-7d7b-4c18-899e-e7dd5708a96d.png)
+<br/>
+`Key difference is the fact log returns the object in string representation and dir recognises the object just as an object and output its properties.`
 
 ### console.table
 ```js
