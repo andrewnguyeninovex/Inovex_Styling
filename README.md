@@ -38,7 +38,7 @@ import './ExampleComponent.scss';
 
 ### Variable Definition
 
-## Props passing
+### Props passing
 ```js
 <Component {...bothObjects} />
 <Component {...objA} {...objB} />
@@ -46,7 +46,7 @@ import './ExampleComponent.scss';
 ```
 `Either of these work as we're correctly passing in an object`
 
-```
+```js
 <-- NOT OK -->
 <Component {...objA, ...objB} />
 ```
