@@ -38,7 +38,9 @@ import './ExampleComponent.scss';
 
 ### Variable Definition
 
-### Props passing
+## React Tips
+
+### Props Passing
 ```js
 <Component {...bothObjects} />
 <Component {...objA} {...objB} />
@@ -51,6 +53,26 @@ import './ExampleComponent.scss';
 <Component {...objA, ...objB} />
 ```
 `This may seem like we're passing in an object but this is a syntax error`
+
+
+```js
+MyHouse = ({openDoor, closeDoor}) => {...};
+// VS
+MyHouse = (props) => {...};
+
+
+useEffect(()=> {
+    setMyDoor(openDoor);
+},[openDoor])
+// VS
+useEffect(()=> {
+    setMyDoor(props.openDoor);
+},[props.openDoor])
+// NOT OKAY
+useEffect(()=> {
+    setMyDoor(props.openDoor);
+},[props]) // React will warn you to add a "props" dependency but it is better to include the specific use of the prop.
+```
 
 ## CSS Guide
 
