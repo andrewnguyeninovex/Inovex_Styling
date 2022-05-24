@@ -60,7 +60,7 @@ MyHouse = ({openDoor, closeDoor}) => {...};
 // VS
 MyHouse = (props) => {...};
 
-
+// Inside MyHouse Component
 useEffect(()=> {
     setMyDoor(openDoor);
 },[openDoor])
