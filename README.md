@@ -64,10 +64,13 @@ MyHouse = (props) => {...};
 useEffect(()=> {
     setMyDoor(openDoor);
 },[openDoor])
+
 // VS
+
 useEffect(()=> {
     setMyDoor(props.openDoor);
 },[props.openDoor])
+
 // NOT OKAY
 useEffect(()=> {
     setMyDoor(props.openDoor);
