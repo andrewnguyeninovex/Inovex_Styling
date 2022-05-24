@@ -52,7 +52,7 @@ import './ExampleComponent.scss';
 <-- NOT OK -->
 <Component {...objA, ...objB} />
 ```
-`This may seem like we're passing in an object but this is a syntax error`
+`This may seem like we're passing in a list of object but this is a syntax error`
 
 ### Props Passing - with destructuring vs props
 ```js
