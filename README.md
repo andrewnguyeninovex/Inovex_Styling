@@ -38,7 +38,19 @@ import './ExampleComponent.scss';
 
 ### Variable Definition
 
+## Props passing
+```js
+<Component {...bothObjects} />
+<Component {...objA} {...objB} />
+<Component {...{...objA,...objB}} />
+```
+`Either of these work as we're correctly passing in an object`
 
+```
+<-- NOT OK -->
+<Component {...objA, ...objB} />
+```
+`This may seem like we're passing in an object but this is a syntax error`
 
 ## CSS Guide
 
