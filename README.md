@@ -40,7 +40,7 @@ import './ExampleComponent.scss';
 
 ## React Tips
 
-### Props Passing
+### Props Passing - with Spreads
 ```js
 <Component {...bothObjects} />
 <Component {...objA} {...objB} />
@@ -54,7 +54,7 @@ import './ExampleComponent.scss';
 ```
 `This may seem like we're passing in an object but this is a syntax error`
 
-
+### Props Passing - with destructuring vs props
 ```js
 MyHouse = ({openDoor, closeDoor}) => {...};
 // VS
