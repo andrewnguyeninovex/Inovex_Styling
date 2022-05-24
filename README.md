@@ -74,7 +74,9 @@ useEffect(()=> {
 // NOT OKAY
 useEffect(()=> {
     setMyDoor(props.openDoor);
-},[props]) // React will warn you to add a "props" dependency but it is better to include the specific use of the prop.
+},[props]) 
+// React will warn you to add a "props" dependency but it is better to include the specific use of the prop.
+// It is even better to use destructuring as you're only passing props you need for your child components.
 ```
 
 ## CSS Guide
