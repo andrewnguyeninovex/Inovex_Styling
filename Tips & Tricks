@@ -1,3 +1,6 @@
+
+##  Quickly remove list of branches in  local
+
 git branch --list 'anguyen*' | % {$_.replace(" ", "")} | % {git branch -d "$_"}
 
 git branch --list 'anguyen*' // Finds all branch starting the name of anguyen, * wild zero to many characters after
