@@ -1,0 +1,7 @@
+git branch --list 'anguyen*' | % {$_.replace(" ", "")} | % {git branch -d "$_"}
+
+git branch --list 'anguyen*' // Finds all branch starting the name of anguyen, * wild zero to many characters after
+| % {$_.replace(" ", "")}    // git returns a list of branches with  a space in front, this pipe step removes the space
+| % {git branch -d "$_"}     // git command to delete branches that have been pushed and merged to remote origin.
+
+Note: -d makes sure not to delete branches that arent merged or pushed. If you would like to bypass that, use -D instead (be careful)
